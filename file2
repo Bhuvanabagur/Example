@@ -1,0 +1,76 @@
+ 499  git init
+  500  cat > file1
+  501  ls
+  502  git add .
+  503  git status
+  504  git commit -m "1st commit"
+  505  git branch demo
+  506  git branch
+  507  vi file1
+  508  git stash save "first stash"
+  509  vi file1
+  510  git status
+  511  git stash save "first stash"
+  512  git stash list
+  513  git checkout demo
+  514  ls
+  515  vi file1
+  516  ls
+  517  git commit -am "new branch file changes"
+  518  git log
+  519  git checkout master
+  520  vi file1
+  521  git stash apply stash@{0}
+  522  cat file1
+  523  git add .
+  524  git commit -m
+  525  git log
+  526  git history
+  527  history
+  528  vi file2
+  529  git add .
+  530  git commit -m "added prcticed history"
+  531  git stash list
+  532  git stash drop stash@{0}
+  533  git diff master demo
+  534  git add .
+  535  git status
+  536  git checkout demo
+  537  git status
+  538  git diff master demo
+  539  git add .
+  540  git checkout master
+  541  git status
+  542  ls
+  543  git merge demo
+  544  git add file2
+  545  git commit -m "jhef"
+  546  git meargetool
+  547  git mergetool
+  548  git merge demo
+  549  git commit -m "merged demo branch"
+  550  vi file1
+  551  git log --oneline
+  552  git rebase demo
+  553  git stash save  "2nd stash"
+  554  git rebase demo
+  555  git log --oneline
+  556  git log --oneline demo
+  557  git log
+  558  git add .
+  559  git commit -m "gjdafgiu"
+  560  git log --oneline demo
+  561  git log --oneline
+  562  git rebase master
+  563  git log
+  564  git log --oneline
+  565*
+  566  git checkout demo
+  567  git commit -m ":wga"
+  568  "git commit --amend"
+  569  git commit --amend
+  570  git rebase --continue
+  571  ls
+  572  git checkout demo
+  573  ls
+
